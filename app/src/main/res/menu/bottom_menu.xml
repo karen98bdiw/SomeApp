@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomTagItem"
+        android:title=""
+        android:icon="@drawable/tags_icon_selector"/>
+
+    <item
+        android:id="@+id/bottomCardItem"
+        android:title=""
+        android:icon="@drawable/cards_icon_selector"/>
+
+    <item
+        android:id="@+id/bottomSetingsItem"
+        android:title=""
+        android:icon="@drawable/settings_icon_selector"/>
+
+</menu>
