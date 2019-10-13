@@ -1,12 +1,12 @@
-package com.example.someapp.main
+package com.example.someapp.main.activityes
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.someapp.R
 import com.example.someapp.main.settings.SettingsAdapter
+
 import kotlinx.android.synthetic.main.activity_settings.*
 
 class SettingsActivity : BaseActivity(2) {

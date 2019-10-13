@@ -1,4 +1,4 @@
-package com.example.someapp.main
+package com.example.someapp.main.activityes
 
 import android.content.Intent
 import android.util.Log

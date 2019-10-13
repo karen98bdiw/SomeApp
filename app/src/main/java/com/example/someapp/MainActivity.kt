@@ -3,7 +3,7 @@ package com.example.someapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.someapp.main.TagsActivity
+import com.example.someapp.main.activityes.TagsActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,5 +15,7 @@ class MainActivity : AppCompatActivity() {
         textMain.setOnClickListener {
             startActivity(Intent(this@MainActivity,TagsActivity::class.java))
         }
+
+
     }
 }
